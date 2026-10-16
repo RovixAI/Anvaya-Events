@@ -6,6 +6,7 @@ export default function GalleryImage() {
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="section-subtitle">Wedding</div>
+              {' '}
               <div className="section-title2">Image Gallery</div>
             </div>
           </div>
@@ -23,6 +24,7 @@ export default function GalleryImage() {
                 </a>
               </div>
             </div>
+            {' '}
             <div className="col-lg-6 col-md-6 mb-25">
               <div className="item">
                 <a href="/img/gallery/6.jpg" title="" className="gallery-masonry-item-img-link img-zoom">
@@ -32,6 +34,7 @@ export default function GalleryImage() {
                 </a>
               </div>
             </div>
+            {' '}
             <div className="col-lg-3 col-md-6 mb-25">
               <div className="item">
                 <a href="/img/gallery/9.jpg" title="" className="gallery-masonry-item-img-link img-zoom">
@@ -41,6 +44,7 @@ export default function GalleryImage() {
                 </a>
               </div>
             </div>
+            {' '}
             <div className="col-lg-3 col-md-6 mb-25">
               <div className="item">
                 <a href="/img/gallery/11.jpg" title="" className="gallery-masonry-item-img-link img-zoom">
@@ -50,6 +54,7 @@ export default function GalleryImage() {
                 </a>
               </div>
             </div>
+            {' '}
             <div className="col-lg-6 col-md-6 mb-25">
               <div className="item">
                 <a href="/img/gallery/7.jpg" title="" className="gallery-masonry-item-img-link img-zoom">
@@ -59,6 +64,7 @@ export default function GalleryImage() {
                 </a>
               </div>
             </div>
+            {' '}
             <div className="col-lg-3 col-md-6 mb-25">
               <div className="item">
                 <a href="/img/gallery/10.jpg" title="" className="gallery-masonry-item-img-link img-zoom">

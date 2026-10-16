@@ -114,9 +114,12 @@ img {
     transition: all 0.5s;
 }
 span,
+a {
+    display: inline-block;
+}
+span,
 a,
 a:hover {
-    display: inline-block;
     text-decoration: none;
     color: inherit;
 }
@@ -278,7 +281,6 @@ select {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23887bb6' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
     color: #797370;
     background-repeat: no-repeat;
     background-position: right 1.5rem center;
@@ -2667,11 +2669,6 @@ blockquote cite:before {
 }
 .accordion-box .block .acc-btn:hover {
     color: #232323;
-}
-.accordion-box .block:hover .acc-btn:before,
-.accordion-box .block:hover .acc-btn.active:before, {
-    background-color: #232323;
-    color: #fff;
 }
 .accordion-box .block .acc-btn:before {
     position: absolute;

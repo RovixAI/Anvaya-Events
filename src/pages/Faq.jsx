@@ -6,6 +6,7 @@ export default function Faq() {
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="section-subtitle">F.A.Qs</div>
+              {' '}
               <div className="section-title2">Popular Questions</div>
             </div>
           </div>
@@ -18,30 +19,37 @@ export default function Faq() {
               <ul className="accordion-box clearfix">
                 <li className="accordion block">
                   <div className="acc-btn">How do I plan a wedding in three months?</div>
+                  {' '}
                   <div className="acc-content">
                     <div className="content">
                       <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.</p>
                     </div>
                   </div>
                 </li>
+                {' '}
                 <li className="accordion block">
                   <div className="acc-btn">Do we need a wedding planner?</div>
+                  {' '}
                   <div className="acc-content">
                     <div className="content">
                       <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.</p>
                     </div>
                   </div>
                 </li>
+                {' '}
                 <li className="accordion block">
                   <div className="acc-btn">How should you deal with wedding stress?</div>
+                  {' '}
                   <div className="acc-content">
                     <div className="content">
                       <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.</p>
                     </div>
                   </div>
                 </li>
+                {' '}
                 <li className="accordion block">
                   <div className="acc-btn">How do you plan a destination wedding?</div>
+                  {' '}
                   <div className="acc-content">
                     <div className="content">
                       <p>Lorem ipsum is simply dummy text of the printing and typesetting industry sapien fermen drana inthe miss molestie non tempor fermen the varius vestibulum drana.</p>
@@ -51,10 +59,12 @@ export default function Faq() {
               </ul>
             </div>
           </div>
+          {' '}
           <div className="row justify-content-center">
             <div className="col-md-12 text-center mt-30">
               <div className="section-info">
                 <div className="tag">Questions</div>
+                {' '}
                 <div className="desc">You can send your questions to the mail address: <a href="mailto:info@Ewed.com" className="text-decoration-line-bottom">info@Ewed.com</a></div>
               </div>
             </div>

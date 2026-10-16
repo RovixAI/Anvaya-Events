@@ -21,7 +21,7 @@
 
 
 -------------------------------------------------------- */
-// Called by React (Layout.jsx) after every route change; window/document handlers are namespaced so re-runs don't stack.
+// Called by React (src/layouts/MainLayout.jsx) after every route change; window/document handlers are namespaced so re-runs don't stack.
 window.initTemplateJS = function () {
     "use strict";
     var wind = $(window);
@@ -29,6 +29,14 @@ window.initTemplateJS = function () {
     $(document).off('.tpl');
     $('.progress-wrap').off('.tpl');
     Waypoint.destroyAll();
+
+    // Masonry galleries: the bundled Masonry only auto-inits [data-masonry] once at page load, before React renders them
+    (window.tplMasonry || []).forEach(function (m) { m.destroy(); });
+    window.tplMasonry = $('[data-masonry]').map(function () {
+        var msnry = Masonry.data(this) || new Masonry(this, $(this).data('masonry'));
+        imagesLoaded(this).on('progress', function () { msnry.layout(); });
+        return msnry;
+    }).get();
 
     // Preloader
     if (document.readyState === 'complete') $('.preloader').fadeOut("slow");
