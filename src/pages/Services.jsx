@@ -1,204 +1,58 @@
 import { Link } from 'react-router-dom'
+import Seo from '../components/Seo.jsx'
+import PageBanner from '../components/PageBanner.jsx'
+
+const SERVICES = [
+  { tag: 'Wedding Planning', title: 'Weddings & Wedding Weekends', text: 'Multi-event wedding planning with venue guidance, cultural traditions, vendor coordination, timelines and on-site logistics.', cta: 'Explore Wedding Planning', to: '/services/wedding-planning/', img: '/img/services/1.jpg', alt: 'Bride smiling in her wedding veil' },
+  { tag: 'Cultural Celebrations', title: 'Pre-Wedding Events', text: 'Engagements, Mehndi, Sangeet, Haldi, Grah Shanti and other ceremonies planned with their own purpose, personality and flow.', cta: 'Explore Pre-Wedding Events', to: '/services/pre-wedding-events/', img: '/img/faqs.jpg', alt: 'Soft pink and white floral arrangement' },
+  { tag: 'Milestone Events', title: 'Milestone Celebrations', text: 'Anniversaries, birthdays, graduations and family occasions that deserve more than a checklist.', cta: 'Explore Milestone Celebrations', to: '/services/milestone-celebrations/', img: '/img/services/2.jpg', alt: 'Tiered celebration cake decorated with flowers and sparklers' },
+  { tag: 'Corporate Events', title: 'Corporate Celebrations', text: 'Team celebrations, appreciation events and special company occasions with a clear plan and smooth coordination.', cta: 'Explore Corporate Events', to: '/services/corporate-events/', img: '/img/services/4.jpg', alt: 'Guests raising glasses for a celebratory toast' },
+  { tag: 'Intimate Gatherings', title: 'Smaller Gatherings, Thoughtfully Planned', text: 'Personal celebrations and smaller gatherings planned with care, subject to scope and availability.', cta: 'Ask About Availability', ctaTo: '/contact/', to: '/services/intimate-gatherings/', img: '/img/services/3.jpg', alt: 'Elegant place setting with neutral tableware and flowers' },
+]
 
 export default function Services() {
   return (
     <>
-      <section className="banner-header section-padding bg-img" data-overlay-dark="5" data-background="/img/slider/9.jpg">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12 text-center">
-              <div className="section-subtitle">The experience</div>
-              {' '}
-              <div className="section-title2">Explore Services</div>
-            </div>
-          </div>
+      <Seo
+        title="Event Planning Services | Anvaya South Florida"
+        description="Explore wedding planning, cultural celebrations, milestone events, corporate gatherings and more with Anvaya’s coordinated approach."
+      />
+      <PageBanner
+        subtitle="Event Planning Services"
+        title={<>Every Occasion Is Different.<br />The Attention to Detail Is Constant.</>}
+        text="From once-in-a-lifetime weddings to moments worth gathering for, Anvaya shapes the plan around your priorities, budget and people."
+        image="/img/slider/9.jpg"
+        long
+      >
+        <div className="banner-ctas">
+          <a href="#services" className="button-2 mt-20">Find the Right Service</a>
+          <Link to="/contact/" className="button-2 mt-20">Inquire About Your Event</Link>
         </div>
-      </section>
-      <section className="services1 section-padding bg-lightbrown">
+      </PageBanner>
+      <section id="services" className="services1 section-padding bg-lightbrown">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-md-12 mb-30 animate-box" data-animate-effect="fadeInUp">
-              <div className="item">
-                <div className="row rest">
-                  <div className="col-lg-6 col-md-12 img rest">
-                    <img src="/img/services/1.jpg" className="img-cover" alt="" />
-                  </div>
-                  {' '}
-                  <div className="col-lg-6 col-md-12 cont valign">
-                    <div className="full-width">
-                      <h5>
-                        <Link to="/services-details">Wedding Planner</Link>
-                      </h5>
-                      {' '}
-                      <p>Lorem ipsum is simply duru text of the printing and typesetting industry.</p>
-                      {' '}
-                      <Link to="/services-details" className="link-btn">View more</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {' '}
-            <div className="col-lg-6 col-md-12 mb-30 animate-box" data-animate-effect="fadeInUp">
-              <div className="item">
-                <div className="row rest">
-                  <div className="col-lg-6 col-md-12 img rest">
-                    <img src="/img/services/2.jpg" className="img-cover" alt="" />
-                  </div>
-                  {' '}
-                  <div className="col-lg-6 col-md-12 cont valign">
-                    <div className="full-width">
-                      <h5>
-                        <Link to="/services-details">Birthday Planner</Link>
-                      </h5>
-                      {' '}
-                      <p>Lorem ipsum is simply duru text of the printing and typesetting industry.</p>
-                      {' '}
-                      <Link to="/services-details" className="link-btn">View more</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {' '}
-            <div className="col-lg-6 col-md-12 mb-30 animate-box" data-animate-effect="fadeInUp">
-              <div className="item">
-                <div className="row rest">
-                  <div className="col-lg-6 col-md-12 img rest">
-                    <img src="/img/services/3.jpg" className="img-cover" alt="" />
-                  </div>
-                  {' '}
-                  <div className="col-lg-6 col-md-12 cont valign">
-                    <div className="full-width">
-                      <h5>
-                        <Link to="/services-details">Destination Wedding</Link>
-                      </h5>
-                      {' '}
-                      <p>Lorem ipsum is simply duru text of the printing indus.</p>
-                      {' '}
-                      <Link to="/services-details" className="link-btn">View more</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {' '}
-            <div className="col-lg-6 col-md-12 mb-30 animate-box" data-animate-effect="fadeInUp">
-              <div className="item">
-                <div className="row rest">
-                  <div className="col-lg-6 col-md-12 img rest">
-                    <img src="/img/services/4.jpg" className="img-cover" alt="" />
-                  </div>
-                  {' '}
-                  <div className="col-lg-6 col-md-12 cont valign">
-                    <div className="full-width">
-                      <h5>
-                        <Link to="/services-details">Corporate Events</Link>
-                      </h5>
-                      {' '}
-                      <p>Lorem ipsum is simply duru text of the printing and typesetting industry.</p>
-                      {' '}
-                      <Link to="/services-details" className="link-btn">View more</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="faqs section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12 text-center mb-30">
-              <div className="section-subtitle">Popular (F.a.qs)</div>
-              {' '}
-              <div className="section-title">Wedding Questions</div>
-            </div>
-          </div>
-          {' '}
           <div className="row justify-content-center">
-            <div className="col-lg-5 col-md-12 mb-30">
-              <ul className="accordion-box clearfix">
-                <li className="accordion block">
-                  <div className="acc-btn">How do I plan a wedding in one months?</div>
-                  {' '}
-                  <div className="acc-content">
-                    <div className="content">
-                      <p>Lorem ipsum quisque sodales miss in the varius drana tonton turpis porttiton tellus in the fermen.</p>
+            {SERVICES.map(s => (
+              <div className="col-lg-6 col-md-12 mb-30 animate-box" data-animate-effect="fadeInUp" key={s.title}>
+                <div className="item">
+                  <div className="row rest">
+                    <div className="col-lg-6 col-md-12 img rest">
+                      <img src={s.img} className="img-cover" alt={s.alt} />
+                    </div>
+                    <div className="col-lg-6 col-md-12 cont valign">
+                      <div className="full-width">
+                        <div className="card-tag">{s.tag}</div>
+                        <h2>
+                          <Link to={s.to}>{s.title}</Link>
+                        </h2>
+                        <p>{s.text}</p>
+                        <Link to={s.ctaTo || s.to} className="link-btn">{s.cta}</Link>
+                      </div>
                     </div>
                   </div>
-                </li>
-                {' '}
-                <li className="accordion block">
-                  <div className="acc-btn">Do we need a wedding planner?</div>
-                  {' '}
-                  <div className="acc-content">
-                    <div className="content">
-                      <p>Lorem ipsum quisque sodales miss in the varius drana tonton turpis porttiton tellus in the fermen.</p>
-                    </div>
-                  </div>
-                </li>
-                {' '}
-                <li className="accordion block">
-                  <div className="acc-btn">How do you plan a destination wedding?</div>
-                  {' '}
-                  <div className="acc-content">
-                    <div className="content">
-                      <p>Lorem ipsum quisque sodales miss in the varius drana tonton turpis porttiton tellus in the fermen.</p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            {' '}
-            <div className="col-lg-2 col-md-12 mb-30">
-              <img className="rounded-2 animation-float1" src="/img/faqs.jpg" alt="" />
-            </div>
-            {' '}
-            <div className="col-lg-5 col-md-12 mb-30">
-              <ul className="accordion-box clearfix">
-                <li className="accordion block">
-                  <div className="acc-btn">Can children attend our wedding?</div>
-                  {' '}
-                  <div className="acc-content">
-                    <div className="content">
-                      <p>Lorem ipsum quisque sodales miss in the varius drana tonton turpis porttiton tellus in the fermen.</p>
-                    </div>
-                  </div>
-                </li>
-                {' '}
-                <li className="accordion block">
-                  <div className="acc-btn">Are wedding planners insured?</div>
-                  {' '}
-                  <div className="acc-content">
-                    <div className="content">
-                      <p>Lorem ipsum quisque sodales miss in the varius drana tonton turpis porttiton tellus in the fermen.</p>
-                    </div>
-                  </div>
-                </li>
-                {' '}
-                <li className="accordion block">
-                  <div className="acc-btn">Do you plan marquee weddings?</div>
-                  {' '}
-                  <div className="acc-content">
-                    <div className="content">
-                      <p>Lorem ipsum quisque sodales miss in the varius drana tonton turpis porttiton tellus in the fermen.</p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          {' '}
-          <div className="row">
-            <div className="col-md-12 text-center">
-              <div className="section-info">
-                <div className="tag">Questions</div>
-                {' '}
-                <div className="desc">You can send your questions to the mail address: <a href="mailto:info@Ewed.com" className="text-decoration-line-bottom">info@Ewed.com</a></div>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>

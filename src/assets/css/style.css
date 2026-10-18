@@ -61,7 +61,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.75em;
-    color: #797370;
+    color: #6e6865;
     overflow-x: hidden !important;  
 }
 p {
@@ -69,7 +69,7 @@ p {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.75em;
-    color: #797370;
+    color: #6e6865;
     margin-bottom: 15px;
 }
 p b {
@@ -169,7 +169,7 @@ textarea {
     font-family: "Jost", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: #797370;
+    color: #6e6865;
     background-image: none;
     border: none;
     border-radius: 30px;
@@ -185,7 +185,7 @@ textarea {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5em;
-    color: #797370;
+    color: #6e6865;
     background-color: transparent;
     background-clip: padding-box;
     border: 1px solid rgba(203,157,85, 0.3);
@@ -213,7 +213,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover {
-    color: #797370;
+    color: #6e6865;
     border: none;
 }
 select {
@@ -223,13 +223,13 @@ select {
 textarea:focus,
 textarea:active,
 textarea::placeholder {
-    color: #797370;
+    color: #6e6865;
 }
 table,
 th,
 tr,
 td {
-    border: 0px solid #797370;
+    border: 0px solid #6e6865;
 }
 th,
 tr,
@@ -281,7 +281,7 @@ select {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: #797370;
+    color: #6e6865;
     background-repeat: no-repeat;
     background-position: right 1.5rem center;
     background-size: 11px 20px;
@@ -357,20 +357,20 @@ input[type=checkbox]:checked:after {
 }
 /* placeholder */
 ::-webkit-input-placeholder {
-    color: #797370;
+    color: #6e6865;
     font-family: "Jost", sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 :-moz-placeholder {
-    color: #797370;
+    color: #6e6865;
 }
 ::-moz-placeholder {
-    color: #797370;
+    color: #6e6865;
     opacity: 1;
 }
 :-ms-input-placeholder {
-    color: #797370;
+    color: #6e6865;
 }
 /* Important */
 .bg-position-top {
@@ -1856,7 +1856,7 @@ blockquote cite:before {
 }
 .about .item .float-box .title span {
     font-weight: 400;
-    color: #797370;
+    color: #6e6865;
     font-family: "Jost", sans-serif;
     font-size: 16px;
 }
@@ -2241,7 +2241,7 @@ blockquote cite:before {
 }
 .portfolio-page .item .float-box .title span {
     font-weight: 400;
-    color: #797370;
+    color: #6e6865;
     font-family: "Jost", sans-serif;
     font-size: 16px;
 }
@@ -2289,7 +2289,7 @@ blockquote cite:before {
 .team .item .cont .text p {
     font-family: "Jost", sans-serif;
     font-size: 18px;
-    color: #797370;
+    color: #6e6865;
     margin-bottom: 0;
     opacity: 0;
 }
@@ -2463,7 +2463,7 @@ blockquote cite:before {
 .team-single .list-text p {
     font-size: 18px;
     margin: 0;
-    color: #797370;
+    color: #6e6865;
 }
 /* tabs */
 .team-single .cont .simpl-bord.nav-tabs {
@@ -2492,7 +2492,7 @@ blockquote cite:before {
     color: #cb9d55;
 }
 .team-single .tab-content p {
-    color: #797370;
+    color: #6e6865;
 }
 
 
@@ -2530,7 +2530,7 @@ blockquote cite:before {
 .price .item .cont p {
     font-size: 18px;
     font-weight: 400;
-    color: #797370;
+    color: #6e6865;
     margin-bottom: 20px;
     line-height: 1.5em;
 }
@@ -2543,7 +2543,7 @@ blockquote cite:before {
 .price .item .cont .time {
     font-size: 18px;
     font-weight: 400;
-    color: #797370;
+    color: #6e6865;
     align-items: center;
     
 }
@@ -2570,7 +2570,7 @@ blockquote cite:before {
     left: 25px;
     position: absolute!important;
     text-align: center;
-    color: #797370;
+    color: #6e6865;
     border-radius: 5px;
     margin: 0;
     letter-spacing: 0px;
@@ -2713,7 +2713,7 @@ blockquote cite:before {
 .accordion-box .block .content p {
     display: block;
     position: relative;
-    color: #797370;
+    color: #6e6865;
     margin-bottom: 0px;
 }
 @media screen and (max-width: 991px) {
@@ -3340,7 +3340,7 @@ height: 100% !important;
     height: 50px;
     line-height: 50px;
     text-align: center;
-    color: #797370;
+    color: #6e6865;
     font-family: "Jost", sans-serif;
     font-weight: 400;
     border: 1px solid #f1e8df;
@@ -3390,10 +3390,10 @@ height: 100% !important;
     margin-bottom: 15px;
 }
 .blog-sidebar .widget ul li a {
-    color: #797370;
+    color: #6e6865;
 }
 .blog-sidebar .widget ul li a.active {
-    color: #797370;
+    color: #6e6865;
 }
 .blog-sidebar .widget ul li a:hover {
     color: #cb9d55;
@@ -3440,10 +3440,10 @@ height: 100% !important;
     background: #fbf6f1;
     margin-bottom: 0;
     border: none;
-    color: #797370;
+    color: #6e6865;
 }
 .blog-sidebar .search form input::placeholder {
-    color: #797370;
+    color: #6e6865;
 }
 .blog-sidebar .search form button {
     height: 50px;
@@ -3507,7 +3507,7 @@ height: 100% !important;
 .post .comment-section h3 span {
     font-family: "Jost", sans-serif;
     font-size: 16px;
-    color: #797370;
+    color: #6e6865;
     margin-left: 15px;
 }
 .post .item {
@@ -3541,7 +3541,7 @@ height: 100% !important;
     line-height: 1.25em;
 }
 .not-found p {
-    color: #797370;
+    color: #6e6865;
 }
 .not-found .search-form {
     position: relative;
@@ -3577,10 +3577,10 @@ height: 100% !important;
     border-color: #cb9d55;
 }
 .not-found .search-form .form-group input::-webkit-input-placeholder {
-    color: #797370;
+    color: #6e6865;
 }
 .not-found .search-form .form-group input[type="search"]:focus {
-    color: #797370;
+    color: #6e6865;
 }
 .not-found .search-form .form-group .search-button {
     height: 50px;
@@ -3694,7 +3694,7 @@ height: 100% !important;
   font-size: 18px;
   margin-bottom: 0px;
   font-weight: 400;
-  color: #797370;
+  color: #6e6865;
 }
 .contact .item .btnx {
     border-radius: 30px;
@@ -3872,7 +3872,7 @@ height: 100% !important;
     position: relative;
 }
 .footer .subscribe p {
-    color: #797370;
+    color: #6e6865;
 }
 .footer .subscribe p a {
     color: #232323;
@@ -3890,7 +3890,7 @@ height: 100% !important;
     background: #fff;
     font-size: 18px;
     font-weight: 400;
-    color: #797370;
+    color: #6e6865;
     outline: none;
     padding: 0 90px 0 30px;
     border: 1px solid #fff;
@@ -3917,7 +3917,7 @@ height: 100% !important;
     outline: none;
 }
 .footer .subscribe .newsletter input::placeholder {
-    color: #797370;
+    color: #6e6865;
 }
 .footer .subscribe .newsletter:hover button {
     background: #232323;
@@ -4004,7 +4004,7 @@ height: 100% !important;
     padding: 35px 0;
 }
 .footer .bottom p {
-    color: #797370;
+    color: #6e6865;
     font-size: 16px;
     margin: 10px;
 }
@@ -4271,7 +4271,7 @@ height: 100% !important;
     color: #fff;
 }
 [data-overlay-dark] p {
-    color: #797370;
+    color: #6e6865;
 }
 [data-overlay-dark="0"]:before {
     opacity: 0;
@@ -4356,4 +4356,284 @@ height: 100% !important;
     .contact .item .contents .title {
         font-size: 21px;
     }
+}
+
+
+/* ======= Anvaya content additions ======= */
+/* long headings (handoff: controlled two-line hero headings) */
+.parallax-header h1.title-long {
+    font-size: 58px;
+}
+.section-title2.title-long {
+    font-size: 48px;
+}
+.banner-header .banner-text,
+.cta-band p {
+    color: rgba(255,255,255,0.9);
+    max-width: 760px;
+    margin: 10px auto 0;
+}
+.banner-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 15px;
+}
+.placeholder-copy {
+    color: #232323;
+    border: 1px dashed rgba(203,157,85, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+}
+/* service cards & detail pages */
+.services1 .item .cont h2,
+.services1 .item .cont h3 {
+    font-size: 24px;
+    color: #cb9d55;
+}
+.services1 .item .cont h2 a,
+.services1 .item .cont h3 a {
+    color: #cb9d55;
+}
+.services1 .item .cont .card-tag {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6e6865;
+    margin-bottom: 10px;
+}
+.service-block + .service-block {
+    margin-top: 40px;
+}
+.service-block-title {
+    font-size: 30px;
+}
+/* why anvaya */
+.feature-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,.08);
+    margin-bottom: 30px;
+    height: calc(100% - 30px);
+}
+.feature-box .icon {
+    font-size: 40px;
+    color: #cb9d55;
+    margin-bottom: 15px;
+    display: block;
+}
+.feature-box h3 {
+    font-size: 21px;
+}
+.feature-box p {
+    margin-bottom: 0;
+}
+/* process steps */
+.process-steps {
+    padding: 0;
+    margin-bottom: 0;
+}
+.process .step {
+    text-align: center;
+    padding: 30px 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,.05);
+    margin-bottom: 30px;
+    height: calc(100% - 30px);
+}
+.process .step .num {
+    display: block;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 700;
+    color: #cb9d55;
+    margin-bottom: 15px;
+}
+.process .step h2,
+.process .step h3 {
+    font-size: 21px;
+}
+.process .step p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+/* celebrations */
+.tag-list {
+    margin: 15px 0 0;
+    padding: 0;
+}
+.tag-list li {
+    display: inline-block;
+    margin: 5px;
+    padding: 4px 22px;
+    border: 1px solid rgba(203,157,85, 0.4);
+    border-radius: 30px;
+    color: #232323;
+    font-size: 16px;
+}
+.inspiration-label {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6e6865;
+}
+/* journal topic cards (no dates or links until articles exist) */
+.blog1 .item .cont h3 {
+    font-size: 21px;
+    margin-bottom: 0;
+}
+/* faq: question headings keep the accordion's look */
+.accordion-box .block h2.acc-btn {
+    font-family: "Jost", sans-serif;
+    margin: 0;
+}
+/* contact */
+.contact-info .section-title {
+    font-size: 36px;
+}
+.contact-info li {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+    color: #232323;
+}
+.contact-info li i {
+    color: #cb9d55;
+    margin-top: 6px;
+}
+.form2 .head h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.form2 .head p {
+    color: rgba(255,255,255,0.85);
+}
+.form2 input[type="tel"],
+.form2 select {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+    padding: 14px 20px;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #6e6865;
+    background-color: transparent;
+    border: 1px solid rgba(203,157,85, 0.3);
+    border-radius: 30px;
+}
+.form2 .consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+.form2 .consent input {
+    width: auto;
+    margin-top: 4px;
+    accent-color: #cb9d55;
+}
+.form2 .consent a {
+    color: #232323;
+}
+/* footer */
+.footer-logo {
+    width: 160px;
+    margin-bottom: 20px;
+}
+.footer .subscribe .footer-tagline {
+    font-family: "Petit Formal Script", serif;
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #232323;
+}
+.footer-inline {
+    margin: 10px 0 0;
+    padding: 0;
+}
+.footer-inline li {
+    display: inline-block;
+    margin: 0 8px;
+    color: #232323;
+    font-size: 16px;
+}
+.footer-inline li + li:before {
+    content: '|';
+    margin-right: 16px;
+    color: rgba(203,157,85, 0.6);
+}
+.footer-legal li,
+.footer-legal li a {
+    color: #6e6865;
+    font-size: 15px;
+}
+/* 404 */
+.not-found .not-found-code {
+    font-size: 150px;
+    line-height: 150px;
+    font-weight: 700;
+    color: #cb9d55;
+}
+.not-found h2 {
+    font-size: 24px;
+}
+@media screen and (max-width: 991px) {
+    .parallax-header h1.title-long {
+        font-size: 38px;
+    }
+    .section-title2.title-long {
+        font-size: 34px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .section-title2 {
+        font-size: 32px;
+    }
+    .section-title2.title-long,
+    .parallax-header h1.title-long {
+        font-size: 30px;
+    }
+    .section-title,
+    .contact-info .section-title {
+        font-size: 30px;
+    }
+    .footer-inline li + li:before {
+        display: none;
+    }
+    .footer-inline li {
+        display: block;
+    }
+}
+/* hero tag: same look as the template's hero h5, without breaking heading order */
+.parallax-header .hero-tag {
+    font-weight: 500;
+    font-size: 16px;
+    color: #cb9d55;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* carousel dots: larger tap area on touch screens, same visual size */
+.owl-theme .owl-dots .owl-dot {
+    padding: 5px !important;
+    min-height: 24px;
+}
+/* keep hero/banner text legible over bright areas of the photo */
+.parallax-header h1,
+.parallax-header .hero-tag,
+.parallax-header p,
+.banner-header .section-subtitle,
+.banner-header h1,
+.banner-header .banner-text,
+.cta-band h2,
+.cta-band p {
+    text-shadow: 0 2px 14px rgba(0,0,0,0.45);
 }
