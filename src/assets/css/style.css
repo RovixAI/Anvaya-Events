@@ -4585,7 +4585,7 @@ height: 100% !important;
 .not-found h2 {
     font-size: 24px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991.98px) {
     .parallax-header h1.title-long {
         font-size: 38px;
     }
@@ -4593,7 +4593,7 @@ height: 100% !important;
         font-size: 34px;
     }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575.98px) {
     .section-title2 {
         font-size: 32px;
     }
@@ -4636,4 +4636,349 @@ height: 100% !important;
 .cta-band h2,
 .cta-band p {
     text-shadow: 0 2px 14px rgba(0,0,0,0.45);
+}
+
+/* ======= Anvaya mobile refinements ======= */
+.inspiration-grid > div {
+    margin-bottom: 25px;
+}
+.banner-ctas {
+    row-gap: 12px;
+}
+@media screen and (max-width: 991.98px) {
+    /* lighter sticky header so it covers less of the page */
+    .logo-wrapper .logo-img {
+        height: 64px;
+        width: auto;
+    }
+    .nav-scroll .logo-wrapper .logo-img,
+    .nav-scroll .logo-img {
+        height: 50px;
+        width: auto;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .section-padding {
+        padding: 70px 0;
+    }
+    .banner-header {
+        padding: 140px 0 80px;
+    }
+    .footer {
+        padding-top: 60px;
+    }
+    .footer .bottom {
+        padding: 20px 0 30px;
+    }
+    .mb-30 {
+        margin-bottom: 24px !important;
+    }
+    /* service cards: shorter photos */
+    .services1 .item .img {
+        min-height: 0;
+        height: 230px;
+    }
+    .services1 .item .img .img-cover {
+        height: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+    .services1 .item .cont {
+        padding: 28px 24px;
+    }
+    /* why anvaya: icon beside text */
+    .feature-box {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        column-gap: 14px;
+        padding: 20px;
+        margin-bottom: 14px;
+        height: auto;
+    }
+    .feature-box .icon {
+        grid-row: span 2;
+        font-size: 30px;
+        margin: 2px 0 0;
+    }
+    .feature-box h3 {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+    .feature-box p {
+        font-size: 16px;
+        line-height: 1.6em;
+    }
+    /* process: number beside step */
+    .process .step {
+        display: grid;
+        grid-template-columns: 54px 1fr;
+        column-gap: 14px;
+        align-items: center;
+        text-align: left;
+        padding: 18px 20px;
+        margin-bottom: 12px;
+        height: auto;
+    }
+    .process .step .num {
+        grid-row: span 2;
+        font-size: 34px;
+        margin: 0;
+    }
+    .process .step h2,
+    .process .step h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+    .process .step p {
+        margin-top: 6px;
+        font-size: 15px;
+        line-height: 1.6em;
+    }
+    /* journal: compact topic list */
+    .journal-topics .item {
+        display: flex;
+        align-items: stretch;
+        margin-bottom: 14px;
+        overflow: hidden;
+    }
+    .journal-topics .item:hover {
+        transform: none;
+    }
+    .journal-topics .item .img {
+        flex: 0 0 105px;
+        border-radius: 5px 0 0 5px;
+    }
+    .journal-topics .item .img img {
+        height: 100%;
+        min-height: 92px;
+        object-fit: cover;
+    }
+    .journal-topics .item .cont {
+        display: flex;
+        align-items: center;
+        padding: 14px 16px;
+    }
+    .journal-topics .item .cont h3 {
+        font-size: 18px;
+        line-height: 1.35em;
+    }
+    /* celebrations: 2-column inspiration grid */
+    .inspiration-grid {
+        --bs-gutter-x: 12px;
+    }
+    .inspiration-grid > div {
+        margin-bottom: 12px;
+    }
+    /* contact form */
+    .form2 .head,
+    .form2 .cont {
+        padding: 22px 18px;
+    }
+    .form2 input[type="text"],
+    .form2 input[type="email"],
+    .form2 input[type="number"],
+    .form2 input[type="tel"],
+    .form2 select,
+    .form2 textarea {
+        font-size: 16px;
+        padding: 12px 14px;
+        margin-bottom: 12px;
+    }
+    .contact-info .section-title {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* keep legal links on one line */
+    .footer-legal li {
+        display: inline-block;
+    }
+    .footer-legal li + li:before {
+        display: inline;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    /* title-only steps (Home): no second row, so the number and title stay centred together */
+    .process .step:not(:has(p)) .num {
+        grid-row: auto;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    .nav-scroll {
+        height: 76px;
+    }
+    .nav-scroll .logo-wrapper {
+        padding: 13px 15px;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    /* primary header CTA (handoff: "Plan Your Celebration") stays available in the mobile menu */
+    .navbar .navbar-right {
+        display: flex;
+        padding: 10px 0 20px 20px;
+    }
+    .navbar .navbar-right .button {
+        background: #cb9d55;
+        border: 1px solid #cb9d55;
+        color: #fff;
+        padding: 8px 25px;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    /* uniform tiles on phones instead of a ragged masonry edge */
+    .inspiration-grid img {
+        aspect-ratio: 4 / 5;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .journal-topics .item.mb-60 {
+        margin-bottom: 14px !important;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    /* full field hints fit on phones; typed text stays 16px (no iOS zoom) */
+    .form2 input::placeholder,
+    .form2 textarea::placeholder {
+        font-size: 15px;
+    }
+    .form2 select {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 400.98px) {
+    /* narrowest phones: give the form a little more width so every field hint fits */
+    .contact .container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .form2 .head,
+    .form2 .cont {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .form2 input[type="text"],
+    .form2 input[type="email"],
+    .form2 input[type="number"],
+    .form2 input[type="tel"],
+    .form2 select,
+    .form2 textarea {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+@media screen and (max-width: 400.98px) {
+    .form2 input::placeholder,
+    .form2 textarea::placeholder {
+        font-size: 14px;
+    }
+}
+
+/* ======= Anvaya all-device refinements ======= */
+@media screen and (max-width: 575.98px) {
+    /* designed two-line breaks are for wider screens; phones wrap naturally */
+    .desk-br {
+        display: none;
+    }
+}
+@media screen and (max-width: 360.98px) {
+    .section-title2.title-long,
+    .parallax-header h1.title-long {
+        font-size: 26px;
+    }
+    .section-title2 {
+        font-size: 28px;
+    }
+    .section-title,
+    .contact-info .section-title {
+        font-size: 26px;
+    }
+    .container,
+    .contact .container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .form2 .head,
+    .form2 .cont {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .form2 input::placeholder,
+    .form2 textarea::placeholder {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    /* hero content always starts below the header bar (matters on short / landscape screens) */
+    .parallax-header {
+        padding-top: 120px;
+        padding-bottom: 70px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    /* tablets: service cards keep photo and text side by side */
+    .services1 .item .img {
+        min-height: 320px;
+    }
+    .services1 .item .img .img-cover {
+        position: absolute;
+        inset: 0;
+        border-radius: 5px 0 0 5px;
+    }
+    .services1 .item .cont {
+        padding: 36px 28px;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    /* stacked about photos: keep them from towering over the copy */
+    .about .item img {
+        max-height: 440px;
+        object-fit: cover;
+    }
+}
+@media screen and (min-width: 992px) {
+    /* menu labels never break mid-word */
+    .navbar .navbar-nav .nav-link,
+    .navbar .navbar-right .button {
+        white-space: nowrap;
+        word-break: normal;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* small laptops / landscape tablets: fit logo + 7 links + CTA on one line */
+    .navbar .navbar-nav .nav-link {
+        font-size: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .navbar .navbar-right .button {
+        padding: 5px 16px;
+        font-size: 15px;
+    }
+    .logo-wrapper .logo-img {
+        height: 64px;
+        width: auto;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* keep the hero headline on two clean lines (handoff §1 developer note) */
+    .parallax-header h1.title-long {
+        font-size: 46px;
+    }
+    .section-title2.title-long {
+        font-size: 42px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .section-title2.title-long {
+        font-size: 38px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    .section-title2.title-long {
+        font-size: 44px;
+    }
 }

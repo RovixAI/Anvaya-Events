@@ -33,7 +33,7 @@ export default function Journal() {
         image="/img/slider/4.jpg"
         long
       />
-      <section className="blog1 section-padding bg-lightbrown">
+      <section className="blog1 journal-topics section-padding bg-lightbrown">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center mb-30">

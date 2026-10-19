@@ -48,9 +48,9 @@ export default function Celebrations() {
               <span className="inspiration-label">Inspiration imagery</span>
             </div>
           </div>
-          <div className="row" data-masonry={'{"percentPosition": true }'}>
+          <div className="row inspiration-grid" data-masonry={'{"percentPosition": true }'}>
             {INSPIRATION.map(img => (
-              <div className={img.col + ' col-md-6 mb-25'} key={img.src}>
+              <div className={'col-6 ' + img.col} key={img.src}>
                 <div className="item">
                   <a href={img.src} title={img.alt} className="gallery-masonry-item-img-link img-zoom">
                     <div className="img">
