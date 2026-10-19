@@ -19,7 +19,7 @@ export default function Services() {
       />
       <PageBanner
         subtitle="Event Planning Services"
-        title={<>Every Occasion Is Different.<br />The Attention to Detail Is Constant.</>}
+        title={<>Every Occasion Is Different.{' '}<br className="desk-br" />The Attention to Detail Is Constant.</>}
         text="From once-in-a-lifetime weddings to moments worth gathering for, Anvaya shapes the plan around your priorities, budget and people."
         image="/img/slider/9.jpg"
         long
@@ -36,10 +36,10 @@ export default function Services() {
               <div className="col-lg-6 col-md-12 mb-30 animate-box" data-animate-effect="fadeInUp" key={s.title}>
                 <div className="item">
                   <div className="row rest">
-                    <div className="col-lg-6 col-md-12 img rest">
+                    <div className="col-md-6 img rest">
                       <img src={s.img} className="img-cover" alt={s.alt} />
                     </div>
-                    <div className="col-lg-6 col-md-12 cont valign">
+                    <div className="col-md-6 cont valign">
                       <div className="full-width">
                         <div className="card-tag">{s.tag}</div>
                         <h2>

@@ -20,7 +20,7 @@ export default function OurProcess() {
       />
       <PageBanner
         subtitle="Our Process"
-        title={<>A Clear Path From “We Have a Date”<br />to “What a Celebration”</>}
+        title={<>A Clear Path From “We Have a Date”{' '}<br className="desk-br" />to “What a Celebration”</>}
         text="Planning becomes easier when you know what comes next—and who is taking care of it."
         image="/img/slider/7.jpg"
         long

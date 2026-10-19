@@ -43,7 +43,7 @@ export default function Contact() {
       <section className="contact section-padding bg-lightbrown">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-12 mb-30">
+            <div className="col-xl-4 col-md-12 mb-30 order-2 order-xl-1">
               {/* PLACEHOLDER contact block — details require approval. */}
               <div className="contact-info">
                 <h2 className="section-title">Contact Information</h2>
@@ -55,7 +55,7 @@ export default function Contact() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-7 offset-lg-1 col-md-12">
+            <div className="col-xl-7 offset-xl-1 col-md-12 mb-30 order-1 order-xl-2">
               <form id="inquiry" className="form2" onSubmit={handleSubmit}>
                 {/* Form heading and intro are PROPOSED — require approval. */}
                 <div className="head">
@@ -83,8 +83,8 @@ export default function Contact() {
                     <Field label="Event date or date flexibility"><input type="text" name="event_date" placeholder="Event date or date flexibility *" required /></Field>
                     <Field label="City / venue"><input type="text" name="city_venue" placeholder="City / venue *" required /></Field>
                     <Field label="Estimated guest count"><input type="number" name="guest_count" min="1" placeholder="Estimated guest count *" required /></Field>
-                    <Field label="Number of events / days"><input type="text" name="events_days" placeholder="Number of events / days *" required /></Field>
-                    <Field label="Estimated overall budget range (optional)"><input type="text" name="budget" placeholder="Estimated overall budget range (optional)" /></Field>
+                    <Field label="Number of events / days" wide><input type="text" name="events_days" placeholder="Number of events / days *" required /></Field>
+                    <Field label="Estimated overall budget range (optional)" wide><input type="text" name="budget" placeholder="Estimated overall budget range (optional)" /></Field>
                     <Field label="Planning support needed" wide><input type="text" name="support_needed" placeholder="Planning support needed *" required /></Field>
                     <Field label="Message" wide><textarea name="message" rows="4" placeholder="Message *" required /></Field>
                     <div className="col-md-12 form-group">

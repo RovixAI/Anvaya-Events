@@ -68,10 +68,10 @@ export default function Home() {
                 {SERVICES.map(s => (
                   <div className="item" key={s.title}>
                     <div className="row rest">
-                      <div className="col-lg-6 col-md-12 img rest">
+                      <div className="col-md-6 img rest">
                         <img src={s.img} className="img-cover" alt={s.alt} />
                       </div>
-                      <div className="col-lg-6 col-md-12 cont valign">
+                      <div className="col-md-6 cont valign">
                         <div className="full-width">
                           <h3>
                             <Link to={s.to}>{s.title}</Link>
